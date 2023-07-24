@@ -26,21 +26,25 @@
 
 <body class="font-manrope">
     <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row">
+        <div class="my-20">
+            <div class=" flex justify-between items-center flex-col lg:flex-row">
 
                 <div>
-                    <h1 class="text-7xl font-extrabold">
+                    <h1 class="text-3xl md:text-left  text-center md:text-7xl font-extrabold">
                         It's good <br>
                         tea time at The <br>
                         Tea House
                     </h1>
                     <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                     </p>
-                    <button class="btn btn-primary text-white">Explore More</button>
+                    <!-- Explore More button  -->
+                    <button class="btn  btn-primary text-white  bg-gradient-to-r from-[#FF8938] to-[#F00]">
+                        Explore More
+                        <i class="fa-solid fa-arrow-trend-up"></i> 
+                    </button>
                 </div>
                 <div>
-                    <img src="./images/banner.png" class="md:max-w-sm" />
+                    <img src="./images/banner.png" class="" />
                     <div class="flex -mt-16 items-center w-60 gap-4 drop-shadow-lg bg-white p-5">
                         <i class="fa-solid fa-star text-3xl text-amber-400"></i>
                         <div>
@@ -119,22 +123,142 @@
 
             </div>
             <div class="space-y-5 flex-1">
-                <h4 class="text-5xl font-extrabold">Great Tea, Freshly <br> Presented</h4>
+                <h4 class="text-5xl text-center font-extrabold">Great Tea, Freshly <br> Presented</h4>
                 <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It
                     represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply
                     appreciated by its custoers because of good words of mouth and unique customized service orginated
                     from Taiwan.</p>
-                <h4 class="text-xl font-extrabold">Unique Taste</h4>
+                <h4 class="text-xl  text-center font-extrabold">Unique Taste</h4>
                 <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
-                <h4 class="text-xl font-extrabold">Premium Quality</h4>
+                <h4 class="text-xl  text-center font-extrabold">Premium Quality</h4>
                 <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
 
             </div>
 
         </section>
+        <!-- super client section  -->
+        <section
+            class="my-24 gap-12 rounded-xl px-24 py-16 flex flex-col lg:flex-row bg-gradient-to-r from-[#FF8938] to-[#F00]">
+            <div class="flex justify-center lg:pr-20 items-center">
+                <div class="space y-5">
+                    <h2 class="text-5xl font-extrabold text-white">
+                        Meet Our Super
+                        <br>
+                        Clients
+                    </h2>
+                    <p class="my-10 text-white">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or randomised words which
+                        don't
+                        look even slightly believable. </p>
+                    <button class="btn btn-primary">Show All</button>
+                </div>
+
+            </div>
+            <!-- review container  -->
+            <div class="relative">
+                <!-- next review  -->
+                <div class="p-10 bg-indigo-500 opacity-25 z-10 rounded-xl mb-16 relative bg-white">
+
+                    <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white"
+                        src="images/client.png" alt="">
+                    <p>We are providing the best and suitable home insurance services for the people who are interested
+                        to
+                        treatment</p>
+                    <h4 class="text-xl font-bold mt-5">Ilham Yuda</h4>
+
+                    <p class="font-medium">Businessman</p>
+                    <div class="flex justify-end">
+                        <img src="images/circles.png" alt="">
+                    </div>
+                </div>
+                <!--current review  -->
+                <div class="p-10 z-20 rounded-xl lg:w-[433px] absolute top-40 lg:-left-24 bg-white">
+
+                    <img class="absolute -left-5 -top-5  border-4 border-white rounded-full bg-white"
+                        src="images/client.png" alt="">
+                    <p>We are providing the best and suitable home insurance services for the people who are interested
+                        to
+                        treatment</p>
+                    <h4 class="text-xl font-bold mt-5">Ilham Yuda</h4>
+
+                    <p class="font-medium">Businessman</p>
+                    <div class="flex justify-end">
+                        <img src="images/circles.png" alt="">
+                    </div>
+                </div>
+                <!-- previous review  -->
+                <div class="p-5 bg-indigo-500 opacity-25 z-10 rounded-xl relative bg-white">
+
+                    <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white"
+                        src="images/client.png" alt="">
+                    <p>We are providing the best and suitable home insurance services for the people who are interested
+                        to
+                        treatment</p>
+                    <h4 class="text-xl font-bold mt-5">Ilham Yuda</h4>
+
+                    <p class="font-medium">Businessman</p>
+                    <div class="flex justify-end">
+                        <img src="images/circles.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
 
     </main>
-    <footer>
+    <footer class="px-4 lg:px-48 py-10 bg-base-200 text-base-content">
+        <div class="flex flex-col md:flex-row my-24 justify-between">
+            <img class="w-[100px] flex justify-center items-center" src="images/cup.png" alt="">
+            <p>
+                Ready to get started?
+                <button class="btn text-white bg-gradient-to-r from-[#FF8938] to-[#F00]">Get Started</button>
+
+            </p>
+
+        </div>
+        <div class="footer">
+            <div>
+                <span class="footer-title text-2xl font-semibold">Quick Links</span>
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Insurance</a>
+                <a class="link link-hover">Privacy Policy</a>
+            </div>
+            <div>
+                <span class="footer-title">Our Service</span>
+                <a class="link link-hover">Life Insurance</a>
+                <a class="link link-hover">Car Insurance</a>
+                <a class="link link-hover">Health Insurance</a>
+                <a class="link link-hover">House Insurance</a>
+            </div>
+            <div>
+                <span class="footer-title">Legal</span>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </div>
+            <div>
+                <span class="footer-title">Newsletter</span>
+                <div class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="relative">
+                        <input type="text" placeholder="username@site.com"
+                        class=" py-4 bg-transparent border-b-2 border-black outline-none " />
+                        <!-- button in footer  -->
+                        <button class="btn text-white  absolute top-0 right-0 rounded-full  bg-gradient-to-r from-[#FF8938] to-[#F00]">
+                            <!-- right icon  -->
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="font-medium mt-4 text-center">
+            <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+        </div>
 
     </footer>
 
